@@ -1,46 +1,459 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Soon tm</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            body{
-                background-color: black;
-                color: white;
-                font-family: Arial, sans-serif;
-            }
-            #center{
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                text-align: center;
-            }
-            img{
-                width: 300px;
-            }
-        </style>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <!-- aHR0cHM6Ly9mdXR1cmVib3kudXMvc3RlZ2Fuby9kZWNpbnB1dC5odG1sCg== -->
-        <div id="center">
+<html lang="fr">
+<head>
+<meta charset="UTF-8" id="1.d.fCty">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="3.b.K3wrcgIOKIksK">Mes 23 ans 🎂</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family: arial;}
+body {
+  background: #fdf6ee;
+  font-family: 'Georgia', serif;
+  color: #2e1f0e;
+}
+/* 3.b.K3wrcgIOKIksK */
 
-        <h1>Soon tm</h1>
-        <p>qu'est ce que ca peut bien être ?</p>
-        <p>ptet il y a un message caché...</p>
-        <img src="soon.jpg" alt="soon tm" />
-        </div>
+/* NAV */
+nav {
+  background: #fff;
+  border-bottom: 1px solid #e8d8c4;
+  padding: 0.9rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+nav .logo { font-size: 0.95rem; color: #c0392b; letter-spacing: 1px; }
+nav .nav-links { display: flex; gap: 1.8rem; }
+nav .nav-links a {
+  font-size: 0.82rem;
+  color: #888;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: color 0.2s;
+}
+nav .nav-links a:hover { color: #c0392b; }
 
-        <script src="" async defer></script>
-    </body>
+/* HERO of the 4.b.+KIkuKIkiAg4oiS4oiSwr*/
+.hero {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem 3rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero-bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14rem;
+  font-weight: 900;
+  color: rgba(255,255,255,0.06);
+  white-space: nowrap;
+  pointer-events: none;
+  font-family: sans-serif;
+  user-select: none;
+}
+.hero h1 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.hero .age-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 50px;
+  padding: 0.3rem 1.2rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+.hero p {
+  font-size: 1rem;
+  opacity: 0.85;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.7;
+  position: relative;
+}
+.bunting {
+  display: flex;
+  justify-content: center;
+  background: #ee5a24;
+  padding: 0.4rem 0 0;
+  gap: 0;
+}
+.flag { width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-top:20px solid; margin:0 2px; }
+.flag:nth-child(odd)  { border-top-color: #ffe066; }
+.flag:nth-child(even) { border-top-color: #fff; }
+
+/* MAIN */
+.main { max-width: 860px; margin: 0 auto; padding: 3rem 2rem; }
+
+/* SECTION TITLE */
+.section-title {
+  font-size: 1.3rem;
+  color: #c0392b;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e8d8c4;
+}
+
+/* TIMELINE */
+.timeline { margin-bottom: 3rem; }
+.tl-item {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.tl-item::before {
+  content: '';
+  position: absolute;
+  left: 18px;
+  top: 36px;
+  bottom: -1.5rem;
+  width: 1px;
+  background: #e8d8c4;
+}
+.tl-item:last-child::before { display: none; }
+.tl-dot {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #e8d8c4;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+.tl-content {
+  background: white;
+  border: 1px solid #e8d8c4;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  flex: 1;
+}
+.tl-content h4 { font-size: 0.95rem; color: #c0392b; margin-bottom: 0.3rem; }
+.tl-content p { font-size: 0.83rem; color: #7a5a3a; line-height: 1.6; }
+.tl-year { font-size: 0.7rem; color: #bbb; font-family: monospace; margin-bottom: 0.2rem; }
+
+/* STATS */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.stat-card {
+  background: white;
+  border: 1px solid #e8d8c4;
+  border-radius: 10px;
+  padding: 1.2rem;
+  text-align: center;
+}
+.stat-card .stat-num {
+  font-size: 2rem;
+  color: #c0392b;
+  display: block;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.stat-card .stat-label {
+  font-size: 0.75rem;
+  color: #aaa;
+  font-family: sans-serif;
+  margin-top: 0.2rem;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.photo-frame {
+  background: white;
+  border: 1px solid #e8d8c4;
+  border-radius: 8px;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: transform 0.2s;
+  cursor: default;
+  overflow: hidden;
+  position: relative;
+}
+.photo-frame:hover { transform: rotate(-1deg) scale(1.03); }
+.photo-frame .ph-icon { font-size: 2.2rem; }
+.photo-frame .ph-label { font-size: 0.68rem; color: #ccc; font-family: monospace; }
+/* Photo spéciale — double clic pour ouvrir la porte dérobée */
+#p-secret {
+  border: 1px solid #e8d8c4;
+  cursor: pointer;
+}
+#p-secret .ph-label { color: #ececec; font-size: 0.6rem; }
+
+/* MESSAGE */
+.message-card {
+  background: white;
+  border: 1px solid #e8d8c4;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+.message-card::before {
+  content: '❝';
+  position: absolute;
+  top: 1rem; left: 1.5rem;
+  font-size: 3rem;
+  color: #f0d8c0;
+  font-family: Georgia;
+  line-height: 1;
+}
+.message-card p {
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: #5a3a1a;
+  padding-left: 1.5rem;
+  font-style: italic;
+}
+.message-card .sig {
+  text-align: right;
+  font-size: 0.82rem;
+  color: #c0392b;
+  margin-top: 1rem;
+  font-style: normal;
+}
+
+/* FOOTER */
+footer {
+  background: #2e1f0e;
+  color: #7a5a3a;
+  padding: 1.2rem 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: sans-serif;
+  line-height: 2;
+}
+/* Hex invisible — hover pour révéler */
+footer .hidden-hex {
+  color: #2e1f0e;
+  background: #2e1f0e;
+  font-family: monospace;
+  letter-spacing: 2px;
+  cursor: text;
+  user-select: all;
+  transition: color 0.4s, background 0.4s;
+  border-radius: 3px;
+  padding: 0 4px;
+}
+footer .hidden-hex:hover { color: #c0392b; background: transparent; }
+
+/* MODAL */
+#modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+#modal-overlay.open { display: flex; }
+#modal-box {
+  background: #0d0d14;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 380px;
+  width: 90%;
+  color: #c8f0c8;
+  font-family: monospace;
+  text-align: center;
+}
+#modal-box h3 { color: #ffe066; font-size: 0.95rem; letter-spacing: 2px; margin-bottom: 0.8rem; }
+#modal-box p { font-size: 0.78rem; color: #7aaa7a; line-height: 1.7; margin-bottom: 1rem; }
+#modal-input {
+  width: 100%;
+  background: #111;
+  border: 1px solid #2a2a3a;
+  border-radius: 6px;
+  color: #c8f0c8;
+  font-family: monospace;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+  outline: none;
+  margin-bottom: 0.6rem;
+  text-align: center;
+}
+#modal-input:focus { border-color: #5fdf5f; }
+.modal-btns { display: flex; gap: 0.5rem; justify-content: center; }
+.modal-btns button {
+  background: transparent;
+  font-family: monospace;
+  font-size: 0.8rem;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#modal-btn { border: 1px solid #5fdf5f; color: #5fdf5f; }
+#modal-cancel { border: 1px solid #333; color: #555; }
+#modal-fb { font-size: 0.73rem; margin-top: 0.4rem; min-height: 1rem; }
+#win-msg { display: none; }
+#win-msg h3 { color: #27c93f; font-size: 1rem; margin-bottom: 0.5rem; }
+#win-msg .flag-word { color: #ffe066; font-size: 1.5rem; letter-spacing: 5px; display: block; margin: 0.6rem 0; }
+#win-msg p { color: #7aaa7a; font-size: 0.8rem; line-height: 1.7; }
+#win-msg .close-btn { border: 1px solid #7aaa7a; color: #7aaa7a; margin-top: 1rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="logo" id="1.c.8K3ICDiiJLCt8K3wr">🎂 mes 23 ans</span>
+  <div class="nav-links">
+    <a href="#">Accueil</a>
+    <a href="#">Souvenirs</a>
+    <a href="#">Message</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-bg-text">23</div>
+  <div class="age-badge">23 ANS</div>
+  <h1>Une page pour mes 23 ans ✨</h1>
+  <p>Parce que les anniversaires méritent d'être célébrés — et que les belles choses méritent d'être partagées avec les bonnes personnes.</p>
+</div>
+<div class="bunting">
+  <div class="flag"></div><div class="flag"></div><div class="flag"></div>
+  <div class="flag"></div><div class="flag"></div><div class="flag"></div>
+  <div class="flag"></div><div class="flag"></div><div class="flag"></div>
+  <div class="flag"></div><div class="flag"></div><div class="flag"></div>
+</div>
+
+<main class="main">
+
+  <!-- TIMELINE -->
+  <h2 class="section-title">23 ans, quelques chapitres</h2>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot" id="6.a.gwrfCt">👶</div>
+      <div class="tl-content">
+        <div class="tl-year" id="3.a.3wrcg4oiSwrfCt8">Il y a 23 ans</div>
+        <h4>Le début de l'histoire</h4>
+        <p>Une naissance qui allait changer beaucoup de choses — en tout cas pour moi.</p>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot">📚</div>
+      <div class="tl-content">
+        <div class="tl-year">L'enfance</div>
+        <h4>Les années école</h4>
+        <p>Des cahiers pleins de rêves, des récréations trop courtes, et déjà une curiosité insatiable pour tout.</p>
+      </div>
+    </div>
+    <div class="tl-item" id="1.b.8K3IOKIksK3wrfCt">
+      <div class="tl-dot">🚀</div>
+      <div class="tl-content">
+        <div class="tl-year">Maintenant</div>
+        <h4>23 ans, plein d'idées</h4>
+        <p>L'âge parfait pour oser, créer, explorer — et partager ça avec les gens qu'on aime.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <h2 class="section-title">En chiffres</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <span class="stat-num">23</span>
+      <span class="stat-label">années de vie</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">8395</span>
+      <span class="stat-label">jours vécus</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num">∞</span>
+      <span class="stat-label">projets à venir</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num" >1</span>
+      <span class="stat-label" id="=AikIKukIKukIK+.b.6">mot qui me définit</span>
+    </div>
+  </div>
+
+  <!-- GALLERY -->
+  <h2 class="section-title">Quelques souvenirs</h2>
+  <div class="gallery">
+    <div class="photo-frame">
+      <div class="ph-icon">🌊</div>
+      <div class="ph-label">ete_2022.jpg</div>
+    </div>
+    <div class="photo-frame">
+      <div class="ph-icon">🎉</div>
+      <div class="ph-label">fete_2023.jpg</div>
+    </div>
+    <div class="photo-frame">
+      <div class="ph-icon">🌄</div>
+      <div class="ph-label">road_trip.jpg</div>
+    </div>
+    <div class="photo-frame">
+      <div class="ph-icon">☕</div>
+      <div class="ph-label">matin_calme.jpg</div>
+    </div>
+    <div class="photo-frame" id="p-secret"
+         title="anniv_secret.jpg"
+         ondblclick="openModal()"
+         id="5.b.8K3ICDiiJLiiJLCt8K3wrc">
+      <div class="ph-icon">🎂</div>
+      <div class="ph-label">anniv_secret.jpg</div>
+    </div>
+    <div class="photo-frame" id="5.a.K3ICDiiJLCt8K3wrfCtyDCt8K3wrfCt">
+      <div class="ph-icon">🎸</div>
+      <div class="ph-label">concert_2024.jpg</div>
+    </div>
+  </div>
+
+  <!-- MESSAGE -->
+  <h2 class="section-title" id="2.c.wrfCt8K">Un mot pour toi</h2>
+  <div class="message-card" id="2.a.DCt+KIkuKIku">
+    <p id="1.a.4oiS4oiSwrfCt">
+      Si tu lis ces lignes, c'est que tu fais partie des gens importants.
+      23 ans c'est l'âge où on commence vraiment à savoir qui on est,
+      ce qu'on veut, et surtout avec qui on veut le vivre.
+      Merci d'être là. Merci de rendre les années aussi belles.
+    </p>
+    <div class="sig" id="4.a.3wrfCt8K3IMK3wrfCt">— avec toute mon affection 🎂</div>
+  </div>
+
+</main>
+
+<footer id="1.d.fCty">
+  Fait avec ❤️ &nbsp;·&nbsp; 23 ans aujourd'hui &nbsp;·&nbsp;
+  &nbsp;·&nbsp; 2025
+</footer>
+<script>
+console.log('%c🎂 Joyeux anniversaire à moi !', 'color: #ff6b6b; font-size: 16px;');
+console.log('body { font-family: Georgia; background: #fdf6ee; }');
+console.log('viewport: 860px max-width');
+console.log('2.b.KIkuKIkiAg4oiS')
+console.log("4.c.fCt8K3IOKIksK3wrfCt8")
+</script>
+
+</body>
 </html>
